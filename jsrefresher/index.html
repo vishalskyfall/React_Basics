@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        "use strict";
+        let a =9;
+        console.log(a);
+        let myobj = (numner) =>{
+            console.log("testing "+this);
+        }
+        myobj();
+        let obja={
+            r:1,
+            h:33,
+            func: function test(number) {
+                console.log("test "+number);
+                
+            }
+        }
+        setTimeout(() => {
+            console.log("badshah")
+        }, 3000);
+
+        console.log("dj vale babu")
+
+        document.addEventListener("click",function click() {
+           console.log("clicked"); 
+            alert("hello")
+            let conf=confirm("sach me ?");
+            console.log(conf);
+        })
+    </script>
+</head>
+<body>
+    <h1>test js</h1>
+</body>
+</html>
